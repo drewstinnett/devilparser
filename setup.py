@@ -19,3 +19,4 @@ setup(
     packages=['devilparser',],
     scripts=['scripts/devilparser-cat.py'],
     long_description=read('README.md'),
+)
