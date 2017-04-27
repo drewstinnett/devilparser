@@ -1,0 +1,4 @@
+---
+main:
+  username: shell_username
+  password: $ lpass show servicenow-api --password
