@@ -1,0 +1,3 @@
+Recurse through yaml instead of just using the first layer
+Put in an optional pre-flight-check, so you don't have to log in to lastpass in the middle of it (maybe?)
+Add a feature to exit on failed shell commands

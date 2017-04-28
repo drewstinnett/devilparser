@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name = "devilparser",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Drew Stinnett",
     author_email = "drew@drewlink.com",
     description = ("Load RC type files with the ability to use shell commands like lpass to get passwords"),
