@@ -1,0 +1,4 @@
+---
+main:
+  username: shell_username
+  password: $ echo shell_password
