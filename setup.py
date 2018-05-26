@@ -11,12 +11,14 @@ with open('requirements.txt') as requirements_file:
 
 setup(
     name="devilparser",
-    version="0.0.2",
+    version="0.0.3",
     author="Drew Stinnett",
     author_email="drew@drewlink.com",
     description=("Load RC type files with the ability to use shell commands like lpass to get passwords"),
     install_requires=install_requirements,
     license="BSD",
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
     keywords="lpass secuirty config",
     packages=['devilparser'],
     scripts=['scripts/devilparser-cat.py'],
